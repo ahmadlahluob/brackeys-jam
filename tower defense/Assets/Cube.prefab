@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7618041507324886174}
   - component: {fileID: 7088477848376175487}
   - component: {fileID: 6555040287988423332}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 534ba672eabd42f48b38ad7e10700b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 7088477848376175487}
+  NavAgent: {fileID: 0}
   moveSpeed: 5
   rotationSpeed: 100
+  damage: 10
